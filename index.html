@@ -39,6 +39,10 @@
       "@context": "https://schema.org",
       "@type": "Product",
       "name": "Sleep Lean",
+      "image": [
+        "https://pomellas.github.io/sleeplean/sleep-lean-product.jpg",
+        "https://pomellas.github.io/sleeplean/sleep-lean-bottle.jpg"
+      ],
       "description": "All-natural weight loss supplement designed to help you burn excess body fat while you sleep",
       "brand": {
         "@type": "Brand",
@@ -46,14 +50,54 @@
       },
       "offers": {
         "@type": "Offer",
-        "availability": "https://schema.org/InStock",
         "url": "https://sleeplean.net?&shield=6fe122qbv7ld3p5po0l9zbhlay&traffic_source=fbgsland",
-        "priceCurrency": "USD"
+        "priceCurrency": "USD",
+        "price": "69.00",
+        "priceValidUntil": "2026-12-31",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "DAY"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 7,
+              "unitCode": "DAY"
+            }
+          }
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        }
       },
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.8",
-        "reviewCount": "1247"
+        "reviewCount": "1247",
+        "bestRating": "5",
+        "worstRating": "1"
       }
     }
     </script>
